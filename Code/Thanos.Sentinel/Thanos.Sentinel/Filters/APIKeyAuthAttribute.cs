@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,16 @@ namespace Thanos.Sentinel.Filters
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class APIKeyAuthAttribute : Attribute, IAsyncActionFilter
     {
+        /// <summary>
+        /// Logger object
+        /// </summary>
+        private readonly ILogger _logger;
+
+        public APIKeyAuthAttribute(ILogger<APIKeyAuthAttribute> logger)
+        {
+            _logger = logger;
+        }
+
         /// <summary>
         /// Action implementation called before the method entry
         /// </summary>
@@ -44,6 +55,7 @@ namespace Thanos.Sentinel.Filters
 
             ///Return unauthorized exception if the key is empty or does not match
             context.Result = new UnauthorizedResult();
+            _logger.LogWarning("Unauthorized access");
             return;
         }
     }
