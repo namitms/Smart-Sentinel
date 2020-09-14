@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -14,6 +15,7 @@ using Thanos.Sentinel.Filters;
 
 namespace Thanos.Sentinel
 {
+    [ExcludeFromCodeCoverage]
     public class Startup
     {
         /// <summary>

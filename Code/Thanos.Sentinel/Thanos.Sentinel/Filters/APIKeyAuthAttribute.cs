@@ -35,28 +35,36 @@ namespace Thanos.Sentinel.Filters
         /// <returns></returns>
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {
-            ///Querry the request header for the APIKey
-            if(context.HttpContext.Request.Headers.TryGetValue(ConstantStrings.APIKEY, out var potentialAPIKey))
+            try
             {
-                ///Retrieve configuration object
-                var configuration = context.HttpContext.RequestServices.GetRequiredService<IConfiguration>();
-
-                ///Get APIKey for appsettings
-                var apiKey = configuration.GetValue<string>(ConstantStrings.APIKEY);
-
-                ///Match keys
-                if (apiKey!=null && apiKey.Trim().Equals(potentialAPIKey.ToString().Trim()))
+                ///Querry the request header for the APIKey
+                if (context.HttpContext.Request.Headers.TryGetValue(ConstantStrings.APIKEY, out var potentialAPIKey))
                 {
-                    ///Proceed to method implementation
-                    await next();
-                    return;
-                }
-            }
+                    ///Retrieve configuration object
+                    var configuration = context.HttpContext.RequestServices.GetRequiredService<IConfiguration>();
 
-            ///Return unauthorized exception if the key is empty or does not match
-            context.Result = new UnauthorizedResult();
-            _logger.LogWarning("Unauthorized access");
-            return;
+                    ///Get APIKey for appsettings
+                    var apiKey = configuration.GetValue<string>(ConstantStrings.APIKEY);
+
+                    ///Match keys
+                    if (apiKey != null && apiKey.Trim().Equals(potentialAPIKey.ToString().Trim()))
+                    {
+                        ///Proceed to method implementation
+                        await next();
+                        return;
+                    }
+                }
+
+                ///Return unauthorized exception if the key is empty or does not match
+                context.Result = new UnauthorizedResult();
+                _logger.LogWarning("Unauthorized access");
+                return;
+            }
+            catch(Exception e)
+            {
+                _logger.LogError(e, "Error authenticating");
+                throw;
+            }
         }
     }
 }
