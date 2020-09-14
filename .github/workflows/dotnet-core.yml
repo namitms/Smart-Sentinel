@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       working-directory: ./Code/Thanos.Sentinel
+      unittest-directory: ./Code/Thanos.Sentinel/UnitTest
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET Core
@@ -26,4 +27,4 @@ jobs:
       working-directory: ${{env.working-directory}}
     - name: Test
       run: dotnet test --no-restore --verbosity normal
-      working-directory: ${{env.working-directory}}
+      working-directory: ${{env.unittest-directory}}
