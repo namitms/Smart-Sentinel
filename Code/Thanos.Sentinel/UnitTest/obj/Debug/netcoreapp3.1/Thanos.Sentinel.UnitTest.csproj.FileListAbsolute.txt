@@ -121,3 +121,4 @@ C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UnitTest\bin
 C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UnitTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UnitTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UnitTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UnitTest\bin\Debug\netcoreapp3.1\testhost.exe

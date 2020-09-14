@@ -46,3 +46,4 @@ C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Senti
 C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel\obj\Debug\netcoreapp3.1\Thanos.Sentinel.csproj.CoreCompileInputs.cache
 C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel\obj\Debug\netcoreapp3.1\Thanos.Sentinel.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel\obj\Debug\netcoreapp3.1\Thanos.Sentinel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel\obj\Debug\netcoreapp3.1\Thanos.Sentinel.csprojAssemblyReference.cache
