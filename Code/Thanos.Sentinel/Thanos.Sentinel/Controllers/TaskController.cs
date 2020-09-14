@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using Thanos.Sentinel.Filters;
 
 namespace Thanos.Sentinel.Controllers

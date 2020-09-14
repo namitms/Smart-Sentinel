@@ -1,16 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Diagnostics.CodeAnalysis;
 using Thanos.Sentinel.Filters;
 
 namespace Thanos.Sentinel
@@ -39,7 +34,7 @@ namespace Thanos.Sentinel
                 services.AddControllers();
                 services.AddScoped<APIKeyAuthAttribute>();
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 _logger.LogError(e, "Error configuring service", null);
                 throw;

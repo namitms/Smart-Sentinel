@@ -4,8 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Thanos.Sentinel.Helpers;
 
@@ -60,7 +58,7 @@ namespace Thanos.Sentinel.Filters
                 _logger.LogWarning("Unauthorized access");
                 return;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 _logger.LogError(e, "Error authenticating");
                 throw;

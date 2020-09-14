@@ -10,7 +10,6 @@ using Moq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using Thanos.Sentinel.Controllers;
 using Thanos.Sentinel.Filters;
 using Thanos.Sentinel.Helpers;
 using Xunit;
@@ -95,7 +94,7 @@ namespace Thanos.Sentinel.UnitTest
                 await tskController.OnActionExecutionAsync(actionExecutingContext, mockAEDelegate.Object);
                 Assert.False(true);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 ///Assert
                 Assert.Equal(typeof(ArgumentNullException), e.GetType());
