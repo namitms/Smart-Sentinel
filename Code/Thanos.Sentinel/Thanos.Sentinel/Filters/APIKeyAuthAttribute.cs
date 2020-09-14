@@ -42,7 +42,7 @@ namespace Thanos.Sentinel.Filters
                     var configuration = context.HttpContext.RequestServices.GetRequiredService<IConfiguration>();
 
                     ///Get APIKey for appsettings
-                    var apiKey = configuration.GetValue<string>(ConstantStrings.APIKEY);
+                    var apiKey = configuration.GetSection(ConstantStrings.APIKEYCONFIG).Value;
 
                     ///Match keys
                     if (apiKey != null && apiKey.Trim().Equals(potentialAPIKey.ToString().Trim()))
