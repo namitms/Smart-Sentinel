@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System;
 using Thanos.Sentinel.Filters;
 
 namespace Thanos.Sentinel.Controllers
@@ -32,16 +28,10 @@ namespace Thanos.Sentinel.Controllers
         [HttpGet]
         public string Get()
         {
-            _logger.LogInformation("A Get call is made", null);
-            try
-            {
-                return "It will roll now";
-            }
-            catch(Exception e)
-            {
-                _logger.LogError(e, "Error geting value", null);
-                throw;
-            }
+            _logger.LogInformation("A Get call is made");
+
+            return "It will roll now";
+
         }
     }
 }

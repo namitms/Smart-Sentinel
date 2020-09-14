@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IlDG35DPmVucXWHTTu1qtsdjVOuJ0efZF93LMH2jEXL0jOfSBX6EG2fqH82I5H5KYjfGq+PHsvZzcVv5fNCmSA==",
+  "dgSpecHash": "+qVld3mCeMntOGJ6HmJuyaJQNA7ghUlqx+32uoMahTqS2XlReb9/iI0lp+nZuyPeFsqRo9+qENvtZop+CbnS9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\Thanos.Sentinel.csproj",
   "expectedPackageFiles": [
@@ -143,7 +143,15 @@
     "C:\\Users\\namts\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\namts\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\namts\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\namts\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\namts\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\namts\\.nuget\\packages\\xunit\\2.4.0\\xunit.2.4.0.nupkg.sha512",
+    "C:\\Users\\namts\\.nuget\\packages\\xunit.abstractions\\2.0.2\\xunit.abstractions.2.0.2.nupkg.sha512",
+    "C:\\Users\\namts\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
+    "C:\\Users\\namts\\.nuget\\packages\\xunit.assert\\2.4.0\\xunit.assert.2.4.0.nupkg.sha512",
+    "C:\\Users\\namts\\.nuget\\packages\\xunit.core\\2.4.0\\xunit.core.2.4.0.nupkg.sha512",
+    "C:\\Users\\namts\\.nuget\\packages\\xunit.extensibility.core\\2.4.0\\xunit.extensibility.core.2.4.0.nupkg.sha512",
+    "C:\\Users\\namts\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
+    "C:\\Users\\namts\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }
