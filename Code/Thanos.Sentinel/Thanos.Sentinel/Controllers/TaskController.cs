@@ -5,7 +5,7 @@ using Thanos.Sentinel.Filters;
 namespace Thanos.Sentinel.Controllers
 {
     /// <summary>
-    /// Task controller
+    /// Task controller for Sentinel
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
