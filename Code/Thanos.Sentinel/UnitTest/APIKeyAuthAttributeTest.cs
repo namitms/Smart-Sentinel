@@ -60,54 +60,6 @@ namespace Thanos.Sentinel.UnitTest
         }
 
         [Fact]
-        public async void APIKeyAuthAttribute_Get_Authenticated()
-        {
-            ///Setup
-            var mockRepo = new Mock<ILogger<APIKeyAuthAttribute>>();
-            APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
-            var modelState = new ModelStateDictionary();
-            modelState.AddModelError("name", "invalid");
-            var httpContext = new DefaultHttpContext();
-            httpContext.Request.Headers[ConstantStrings.APIKEY] = "TestKey";
-            var mockConfig = new Mock<IConfiguration>();
-            var mockCSec = new Mock<IConfigurationSection>();
-            mockCSec.Object[ConstantStrings.APIKEY] = "TestKey";
-            mockConfig.Setup(c => c.GetSection(It.IsAny<String>())).Returns(mockCSec.Object);
-            mockConfig.Object[ConstantStrings.APIKEY] = "TestKey";
-            var serviceProviderMock = new Mock<IServiceProvider>();
-            serviceProviderMock
-                .Setup(s => s.GetService(typeof(IConfiguration)))
-                .Returns(mockConfig.Object);
-            httpContext.RequestServices = serviceProviderMock.Object;
-            var actionContext = new ActionContext(
-                httpContext,
-                Mock.Of<RouteData>(),
-                Mock.Of<ActionDescriptor>(),
-                modelState
-            );
-            var actionExecutingContext = new ActionExecutingContext(
-                actionContext,
-                new List<IFilterMetadata>(),
-                new Dictionary<string, object>(),
-                Mock.Of<Controller>()
-            );
-
-            var mockAEDelegate = new Mock<ActionExecutionDelegate>();
-
-            ///Test 
-            try
-            {
-                await tskController.OnActionExecutionAsync(actionExecutingContext, mockAEDelegate.Object);
-                Assert.False(true);
-            }
-            catch (Exception e)
-            {
-                ///Assert
-                Assert.Equal(typeof(ArgumentNullException), e.GetType());
-            }
-        }
-
-        [Fact]
         public async void APIKeyAuthAttribute_Get_Exception()
         {
             ///Setup
