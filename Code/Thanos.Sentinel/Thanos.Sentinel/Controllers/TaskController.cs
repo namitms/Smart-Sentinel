@@ -32,5 +32,6 @@ namespace Thanos.Sentinel.Controllers
             return "It will roll now";
 
         }
+
     }
 }
