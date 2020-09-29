@@ -26,23 +26,30 @@ namespace Thanos.Sentinel.UnitTest
         /// Positive flow for authentication. Matching key in the header and config
         /// </summary>
         [Fact]
-        public async void APIKeyAuthAttribute_Get_Authorized()
+        public async void OnActionExecutionAsync_Authorize_True()
         {
-            ///Setup
-            const string key = "TestKey";
+            ///Arrange
+            const string KEY = "TestKey";
+            const string NAME = "name";
+            const string INVALID = "invalid";
+            const int RESULT = 200;
+
             var mockRepo = new Mock<ILogger<APIKeyAuthAttribute>>();
-            APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
             var modelState = new ModelStateDictionary();
-            modelState.AddModelError("name", "invalid");
             var httpContext = new DefaultHttpContext();
-            httpContext.Request.Headers[ConstantStrings.APIKEY] = key;
             var mockConfig = new Mock<IConfiguration>();
-            mockConfig.Setup(c => c.GetSection(It.IsAny<String>()).Value).Returns(key);
             var serviceProviderMock = new Mock<IServiceProvider>();
+
+            APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
+            
+            modelState.AddModelError(NAME, INVALID);
+            httpContext.Request.Headers[ConstantStrings.APIKEY] = KEY;
+            mockConfig.Setup(c => c.GetSection(It.IsAny<String>()).Value).Returns(KEY);
             serviceProviderMock
                 .Setup(s => s.GetService(typeof(IConfiguration)))
                 .Returns(mockConfig.Object);
             httpContext.RequestServices = serviceProviderMock.Object;
+
             var actionContext = new ActionContext(
                 httpContext,
                 Mock.Of<RouteData>(),
@@ -55,40 +62,46 @@ namespace Thanos.Sentinel.UnitTest
                 new Dictionary<string, object>(),
                 Mock.Of<Controller>()
             );
-
             //Set default result as success. Will remain the same unless unauthorized
-            actionExecutingContext.Result = new StatusCodeResult(200);
+            actionExecutingContext.Result = new StatusCodeResult(RESULT);
             var mockAEDelegate = new Mock<ActionExecutionDelegate>();
 
-            ///Test 
+            ///Act 
             await tskController.OnActionExecutionAsync(actionExecutingContext, mockAEDelegate.Object);
 
             ///Assert
-            Assert.Equal(200, ((StatusCodeResult)actionExecutingContext.Result).StatusCode);
+            Assert.Equal(RESULT, ((StatusCodeResult)actionExecutingContext.Result).StatusCode);
         }
 
         /// <summary>
         /// Negative flow for authentication. Wrong Key in Header
         /// </summary>
         [Fact]
-        public async void APIKeyAuthAttribute_Get_Unauthorized_Wrong_Key()
+        public async void OnActionExecutionAsync_Authorize_False_WrongKey()
         {
-            ///Setup
-            const string key = "TestKey";
-            const string wrongKey = "TestKey1";
+            ///Arrange
+            const string KEY = "TestKey";
+            const string WRONG_KEY = "TestKey1";
+            const string NAME = "name";
+            const string INVALID = "invalid";
+            const int RESULT = 200;
+            const int ERROR_RESULT = 401;
+
             var mockRepo = new Mock<ILogger<APIKeyAuthAttribute>>();
-            APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
             var modelState = new ModelStateDictionary();
-            modelState.AddModelError("name", "invalid");
             var httpContext = new DefaultHttpContext();
-            httpContext.Request.Headers[ConstantStrings.APIKEY] = wrongKey;
             var mockConfig = new Mock<IConfiguration>();
-            mockConfig.Setup(c => c.GetSection(It.IsAny<String>()).Value).Returns(key);
             var serviceProviderMock = new Mock<IServiceProvider>();
+
+            APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
+            modelState.AddModelError(NAME, INVALID);
+            httpContext.Request.Headers[ConstantStrings.APIKEY] = WRONG_KEY;
+            mockConfig.Setup(c => c.GetSection(It.IsAny<String>()).Value).Returns(KEY);
             serviceProviderMock
                 .Setup(s => s.GetService(typeof(IConfiguration)))
                 .Returns(mockConfig.Object);
             httpContext.RequestServices = serviceProviderMock.Object;
+
             var actionContext = new ActionContext(
                 httpContext,
                 Mock.Of<RouteData>(),
@@ -101,38 +114,45 @@ namespace Thanos.Sentinel.UnitTest
                 new Dictionary<string, object>(),
                 Mock.Of<Controller>()
             );
-
             //Set default result as success. Will remain the same unless unauthorized
-            actionExecutingContext.Result = new StatusCodeResult(200);
+            actionExecutingContext.Result = new StatusCodeResult(RESULT);
             var mockAEDelegate = new Mock<ActionExecutionDelegate>();
 
-            ///Test 
+            ///Act 
             await tskController.OnActionExecutionAsync(actionExecutingContext, mockAEDelegate.Object);
 
             ///Assert
-            Assert.Equal(401, ((StatusCodeResult)actionExecutingContext.Result).StatusCode);
+            Assert.Equal(ERROR_RESULT, ((StatusCodeResult)actionExecutingContext.Result).StatusCode);
         }
 
         /// <summary>
         /// Negative flow for authentication. Null Key in Header
         /// </summary>
         [Fact]
-        public async void APIKeyAuthAttribute_Get_Unauthorized_Null_Key()
+        public async void OnActionExecutionAsync_Authorize_False_NullKey()
         {
-            ///Setup
+            ///Arrange
+            const string NAME = "name";
+            const string INVALID = "invalid";
+            const string KEY = "TestKey"; 
+            const int ERROR_RESULT = 401;
+
             var mockRepo = new Mock<ILogger<APIKeyAuthAttribute>>();
-            APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
             var modelState = new ModelStateDictionary();
-            modelState.AddModelError("name", "invalid");
             var httpContext = new DefaultHttpContext();
-            httpContext.Request.Headers[ConstantStrings.APIKEY] = "TestKey";
             var mockConfig = new Mock<IConfiguration>();
-            mockConfig.Setup(c => c.GetSection(It.IsAny<String>())).Returns(new Mock<IConfigurationSection>().Object);
             var serviceProviderMock = new Mock<IServiceProvider>();
+
+            APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
+            
+            modelState.AddModelError(NAME, INVALID);
+            httpContext.Request.Headers[ConstantStrings.APIKEY] = KEY;
+            mockConfig.Setup(c => c.GetSection(It.IsAny<String>())).Returns(new Mock<IConfigurationSection>().Object);
             serviceProviderMock
                 .Setup(s => s.GetService(typeof(IConfiguration)))
                 .Returns(mockConfig.Object);
             httpContext.RequestServices = serviceProviderMock.Object;
+
             var actionContext = new ActionContext(
                 httpContext,
                 Mock.Of<RouteData>(),
@@ -145,32 +165,36 @@ namespace Thanos.Sentinel.UnitTest
                 new Dictionary<string, object>(),
                 Mock.Of<Controller>()
             );
-
             var mockAEDelegate = new Mock<ActionExecutionDelegate>();
 
-            ///Test 
+            ///Act 
             await tskController.OnActionExecutionAsync(actionExecutingContext, mockAEDelegate.Object);
 
             ///Assert
-            Assert.Equal(401, ((StatusCodeResult)actionExecutingContext.Result).StatusCode);
+            Assert.Equal(ERROR_RESULT, ((StatusCodeResult)actionExecutingContext.Result).StatusCode);
         }
 
         /// <summary>
         /// Exception flow. Null Service provider
         /// </summary>
         [Fact]
-        public async void APIKeyAuthAttribute_Get_Exception()
+        public async void OnActionExecutionAsync_Authorize_ThorwException()
         {
-            ///Setup
+            ///Arrange
+            const string NAME = "name";
+            const string INVALID = "invalid";
+            const string KEY = "TestKey";
+
             var mockRepo = new Mock<ILogger<APIKeyAuthAttribute>>();
-            APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
             var modelState = new ModelStateDictionary();
-            modelState.AddModelError("name", "invalid");
             var httpContext = new DefaultHttpContext();
-            httpContext.Request.Headers[ConstantStrings.APIKEY] = "TestKey";
             var mockConfig = new Mock<IConfiguration>();
             var mockCSec = new Mock<IConfigurationSection>();
-            mockCSec.Object[ConstantStrings.APIKEY] = "TestKey";
+
+            APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
+            modelState.AddModelError(NAME, INVALID);
+            httpContext.Request.Headers[ConstantStrings.APIKEY] = KEY;
+            mockCSec.Object[ConstantStrings.APIKEY] = KEY;
             mockConfig.Setup(c => c.GetSection(It.IsAny<String>())).Returns(mockCSec.Object);
 
             var actionContext = new ActionContext(
@@ -185,12 +209,11 @@ namespace Thanos.Sentinel.UnitTest
                 new Dictionary<string, object>(),
                 Mock.Of<Controller>()
             );
-
             var mockAEDelegate = new Mock<ActionExecutionDelegate>();
 
-            ///Test 
             try
             {
+                ///Act 
                 await tskController.OnActionExecutionAsync(actionExecutingContext, mockAEDelegate.Object);
                 Assert.False(true);
             }
