@@ -1,9 +1,0 @@
-C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel.Dispatcher\bin\Debug\netcoreapp3.1\Thanos.Sentinel.Dispatcher.deps.json
-C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel.Dispatcher\bin\Debug\netcoreapp3.1\Thanos.Sentinel.Dispatcher.dll
-C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel.Dispatcher\bin\Debug\netcoreapp3.1\Thanos.Sentinel.Dispatcher.pdb
-C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel.Dispatcher\obj\Debug\netcoreapp3.1\Thanos.Sentinel.Dispatcher.csprojAssemblyReference.cache
-C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel.Dispatcher\obj\Debug\netcoreapp3.1\Thanos.Sentinel.Dispatcher.AssemblyInfoInputs.cache
-C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel.Dispatcher\obj\Debug\netcoreapp3.1\Thanos.Sentinel.Dispatcher.AssemblyInfo.cs
-C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel.Dispatcher\obj\Debug\netcoreapp3.1\Thanos.Sentinel.Dispatcher.csproj.CoreCompileInputs.cache
-C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel.Dispatcher\obj\Debug\netcoreapp3.1\Thanos.Sentinel.Dispatcher.dll
-C:\Users\namts\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\Thanos.Sentinel.Dispatcher\obj\Debug\netcoreapp3.1\Thanos.Sentinel.Dispatcher.pdb
