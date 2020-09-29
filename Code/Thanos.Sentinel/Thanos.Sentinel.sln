@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.Sentinel.UnitTest", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thanos.Sentinel.Listener", "Thanos.Sentinel.Listener\Thanos.Sentinel.Listener.csproj", "{50D29C50-4BEC-44F0-B294-8C2058F1CC1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thanos.Sentinel.Dispatcher", "Thanos.Sentinel.Dispatcher\Thanos.Sentinel.Dispatcher.csproj", "{53FDD03D-49F3-48A2-86FF-062663EBD67F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{50D29C50-4BEC-44F0-B294-8C2058F1CC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50D29C50-4BEC-44F0-B294-8C2058F1CC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50D29C50-4BEC-44F0-B294-8C2058F1CC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FDD03D-49F3-48A2-86FF-062663EBD67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FDD03D-49F3-48A2-86FF-062663EBD67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FDD03D-49F3-48A2-86FF-062663EBD67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FDD03D-49F3-48A2-86FF-062663EBD67F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
