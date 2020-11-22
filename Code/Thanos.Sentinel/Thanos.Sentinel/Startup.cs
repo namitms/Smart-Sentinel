@@ -3,24 +3,23 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Diagnostics.CodeAnalysis;
-using Thanos.Sentinel.Filters;
+using Thanos.Adapter.ServiceBus;
+using Thanos.Sentinel.Workers;
 
 namespace Thanos.Sentinel
 {
-    [ExcludeFromCodeCoverage]
     public class Startup
     {
-        /// <summary>
-        /// logger object
-        /// </summary>
-        private ILogger _logger;
-
+        private HeartBeatAction hbAction;
+        private TaskResponseAction trAction;
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            hbAction = new HeartBeatAction();
+            trAction = new TaskResponseAction();
+            State.State.Instance.HueGroundBaseURL = configuration.GetSection("Hue").GetSection("Bridges").GetSection("HueGroundBaseURL").Value;
+            State.State.Instance.HueFirstBaseURL = configuration.GetSection("Hue").GetSection("Bridges").GetSection("HueFirstBaseURL").Value;
+            Receiver.RegisterOnMessageHandlerAndReceiveMessages();
         }
 
         public IConfiguration Configuration { get; }
@@ -28,56 +27,27 @@ namespace Thanos.Sentinel
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            try
-            {
-                services.AddApplicationInsightsTelemetry();
-                services.AddControllers();
-                services.AddScoped<APIKeyAuthAttribute>();
-                services.AddSwaggerGen();
-            }
-            catch (Exception e)
-            {
-                _logger.LogError(e, "Error configuring service", null);
-                throw;
-            }
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            ///Initialize Logger
-            _logger = logger;
-
-            try
+            if (env.IsDevelopment())
             {
-                // Enable middleware to serve generated Swagger as a JSON endpoint.
-                app.UseSwagger();
-
-                // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
-                // specifying the Swagger JSON endpoint.
-                app.UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-                });
-
-                if (env.IsDevelopment())
-                {
-                    app.UseDeveloperExceptionPage();
-                }
-
-                app.UseHttpsRedirection();
-                app.UseRouting();
-                app.UseAuthorization();
-                app.UseEndpoints(endpoints =>
-                {
-                    endpoints.MapControllers();
-                });
+                app.UseDeveloperExceptionPage();
             }
-            catch (Exception e)
+
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
             {
-                _logger.LogError(e, "Error configuring applciation", null);
-                throw;
-            }
+                endpoints.MapControllers();
+            });
         }
     }
 }
