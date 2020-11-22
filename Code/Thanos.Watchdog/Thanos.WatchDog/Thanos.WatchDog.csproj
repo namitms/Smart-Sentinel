@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Thanos.Common\Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj" />
+    <ProjectReference Include="..\Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj" />
+    <ProjectReference Include="..\Thanos.Models\Thanos.Models.csproj" />
+    <ProjectReference Include="..\Thanos.State\Thanos.WatchDog.State.csproj" />
+    <ProjectReference Include="..\Thanos.WatchDog.Actions\Thanos.WatchDog.Actions.csproj" />
+    <ProjectReference Include="..\Thanos.WatchDog.Events\Thanos.WatchDog.Events.csproj" />
+    <ProjectReference Include="..\Thanos.WatchDog.Worker\Thanos.WatchDog.Worker.csproj" />
+  </ItemGroup>
+
+</Project>
