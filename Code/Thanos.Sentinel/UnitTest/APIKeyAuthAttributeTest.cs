@@ -41,7 +41,7 @@ namespace Thanos.Sentinel.UnitTest
             var serviceProviderMock = new Mock<IServiceProvider>();
 
             APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
-            
+
             modelState.AddModelError(NAME, INVALID);
             httpContext.Request.Headers[ConstantStrings.APIKEY] = KEY;
             mockConfig.Setup(c => c.GetSection(It.IsAny<String>()).Value).Returns(KEY);
@@ -134,7 +134,7 @@ namespace Thanos.Sentinel.UnitTest
             ///Arrange
             const string NAME = "name";
             const string INVALID = "invalid";
-            const string KEY = "TestKey"; 
+            const string KEY = "TestKey";
             const int ERROR_RESULT = 401;
 
             var mockRepo = new Mock<ILogger<APIKeyAuthAttribute>>();
@@ -144,7 +144,7 @@ namespace Thanos.Sentinel.UnitTest
             var serviceProviderMock = new Mock<IServiceProvider>();
 
             APIKeyAuthAttribute tskController = new APIKeyAuthAttribute(mockRepo.Object);
-            
+
             modelState.AddModelError(NAME, INVALID);
             httpContext.Request.Headers[ConstantStrings.APIKEY] = KEY;
             mockConfig.Setup(c => c.GetSection(It.IsAny<String>())).Returns(new Mock<IConfigurationSection>().Object);

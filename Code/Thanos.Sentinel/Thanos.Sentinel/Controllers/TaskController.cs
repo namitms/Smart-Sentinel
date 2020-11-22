@@ -1,37 +1,31 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Thanos.Sentinel.Filters;
+using Newtonsoft.Json;
+using Thanos.Adapter.ServiceBus;
+using Thanos.Models;
 
 namespace Thanos.Sentinel.Controllers
 {
-    /// <summary>
-    /// Task controller for Sentinel
-    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
-    ///Used for Authentication 
-    [ServiceFilter(typeof(APIKeyAuthAttribute))]
     public class TaskController : ControllerBase
     {
-        /// <summary>
-        /// Logger object
-        /// </summary>
-        private readonly ILogger _logger;
-
-        public TaskController(ILogger<TaskController> logger)
+        [HttpPost]
+        public void Post([FromBody] Task task)
         {
-            ///Initialize logger
-            _logger = logger;
+            task.ID = task.ID.ToUpper().Trim();
+            if (task.Type == TASK_TYPE.HUE_FLOW)
+            {
+                Flow flow = JsonConvert.DeserializeObject<Flow>(task.Properties[Statics.FLOW_STRING].ToString());
+                task.Properties[Statics.FLOW_STRING] = flow;
+            }
+            Dispatcher.SendMessagesToNodeAsync(JsonConvert.SerializeObject(task), MESSAGE_TYPE.TASK_START).Wait();
         }
 
-        [HttpGet]
-        public string Get()
+        [HttpDelete]
+        public void Post(string id)
         {
-            _logger.LogInformation("A Get call is made");
-
-            return "It will roll now";
-
+            Task deleteTask = new Task() { ID = id.ToUpper().Trim() };
+            Dispatcher.SendMessagesToNodeAsync(JsonConvert.SerializeObject(deleteTask), MESSAGE_TYPE.TASK_END).Wait();
         }
-
     }
 }

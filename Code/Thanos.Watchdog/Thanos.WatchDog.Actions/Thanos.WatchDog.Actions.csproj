@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Thanos.Common\Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj" />
+    <ProjectReference Include="..\Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj" />
+    <ProjectReference Include="..\Thanos.State\Thanos.WatchDog.State.csproj" />
+    <ProjectReference Include="..\Thanos.WatchDog.Worker\Thanos.WatchDog.Worker.csproj" />
+  </ItemGroup>
+
+</Project>

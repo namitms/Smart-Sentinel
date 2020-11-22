@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Q42.HueApi" Version="3.15.4" />
+    <PackageReference Include="Q42.HueApi.ColorConverters" Version="3.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Thanos.Common\Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj" />
+    <ProjectReference Include="..\..\Thanos.Common\Thanos.Models\Thanos.Models.csproj" />
+    <ProjectReference Include="..\Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj" />
+    <ProjectReference Include="..\Thanos.Models\Thanos.Models.csproj" />
+    <ProjectReference Include="..\Thanos.State\Thanos.WatchDog.State.csproj" />
+  </ItemGroup>
+
+</Project>

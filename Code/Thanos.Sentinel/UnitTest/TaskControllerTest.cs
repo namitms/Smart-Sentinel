@@ -10,13 +10,13 @@ namespace Thanos.Sentinel.UnitTest
     public class TaskControllerTest
     {
         [Fact]
-        public void TaskController_Get_NotNull()
+        public void Get_GetTasks_NotNull()
         {
-            ///Setup
+            ///Arrange
             var mockRepo = new Mock<ILogger<TaskController>>();
             TaskController tskController = new TaskController(mockRepo.Object);
 
-            ///Test 
+            ///Act 
             var result = tskController.Get();
 
             ///Assert

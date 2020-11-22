@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xeZRP5Q91R7VtJKQbYFAeJQ8X1YjK+aF9HDLUEAzUseqVPzJXO0aOQ9p9zFThZZojpi8KDHVd+PXXrjRVgpLZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.Models\\Thanos.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\namts\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
