@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Thanos.Sentinel.Dispatcher
+﻿namespace Thanos.Sentinel.Dispatcher
 {
     public class Class1
     {
