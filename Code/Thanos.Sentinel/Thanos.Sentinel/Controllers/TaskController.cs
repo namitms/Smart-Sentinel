@@ -5,7 +5,6 @@ using Thanos.Models;
 
 namespace Thanos.Sentinel.Controllers
 {
-
     [Route("api/[controller]")]
     [ApiController]
     public class TaskController : ControllerBase
