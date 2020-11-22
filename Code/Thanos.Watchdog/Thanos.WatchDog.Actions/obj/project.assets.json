@@ -5969,13 +5969,13 @@
     },
     "Thanos.Adapter.ServiceBus/1.0.0": {
       "type": "project",
-      "path": "../Thanos.Adapter.ServiceBus/Thanos.Adapter.ServiceBus.csproj",
-      "msbuildProject": "../Thanos.Adapter.ServiceBus/Thanos.Adapter.ServiceBus.csproj"
+      "path": "../../Thanos.Common/Thanos.Adapter.ServiceBus/Thanos.Adapter.ServiceBus.csproj",
+      "msbuildProject": "../../Thanos.Common/Thanos.Adapter.ServiceBus/Thanos.Adapter.ServiceBus.csproj"
     },
     "Thanos.Models/1.0.0": {
       "type": "project",
-      "path": "../Thanos.Models/Thanos.Models.csproj",
-      "msbuildProject": "../Thanos.Models/Thanos.Models.csproj"
+      "path": "../../Thanos.Common/Thanos.Models/Thanos.Models.csproj",
+      "msbuildProject": "../../Thanos.Common/Thanos.Models/Thanos.Models.csproj"
     },
     "Thanos.WatchDog.Events/1.0.0": {
       "type": "project",
@@ -6026,6 +6026,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj": {
+              "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj"
+            },
             "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj": {
               "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj"
             },

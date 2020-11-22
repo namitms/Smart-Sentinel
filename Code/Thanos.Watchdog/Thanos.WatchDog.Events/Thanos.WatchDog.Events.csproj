@@ -10,6 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Thanos.Common\Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj" />
+    <ProjectReference Include="..\..\Thanos.Common\Thanos.Models\Thanos.Models.csproj" />
     <ProjectReference Include="..\Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj" />
     <ProjectReference Include="..\Thanos.Models\Thanos.Models.csproj" />
     <ProjectReference Include="..\Thanos.State\Thanos.WatchDog.State.csproj" />

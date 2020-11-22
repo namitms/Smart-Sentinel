@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.WatchDog", "Thanos.WatchDog\Thanos.WatchDog.csproj", "{896D27C5-B0FD-4ABB-84B4-4602E9A82BC8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.Models", "Thanos.Models\Thanos.Models.csproj", "{BA6C7529-0729-4153-B724-AB2EE9150332}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.Adapter.ServiceBus", "Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj", "{4B3E0051-6330-454E-BDFE-B561673AE88A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.WatchDog.Events", "Thanos.WatchDog.Events\Thanos.WatchDog.Events.csproj", "{C95135D9-630D-498D-A1A0-B570EDAC71F9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.WatchDog.Actions", "Thanos.WatchDog.Actions\Thanos.WatchDog.Actions.csproj", "{C67A5195-59A2-405E-9D4B-486EB506C981}"
@@ -16,6 +12,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.WatchDog.Worker", "Thanos.WatchDog.Worker\Thanos.WatchDog.Worker.csproj", "{11E6E137-F9B2-44A0-8276-0575D70BA37D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.WatchDog.State", "Thanos.State\Thanos.WatchDog.State.csproj", "{00C76EA9-8276-47AA-87D4-D3F24B6FA69E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.Adapter.ServiceBus", "..\Thanos.Common\Thanos.Adapter.ServiceBus\Thanos.Adapter.ServiceBus.csproj", "{4EC5867A-87AA-4785-A414-02AAABF67E28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thanos.Models", "..\Thanos.Common\Thanos.Models\Thanos.Models.csproj", "{01F1F4DA-3294-4BF0-9241-D64B4EEF9D1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,14 +27,6 @@ Global
 		{896D27C5-B0FD-4ABB-84B4-4602E9A82BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{896D27C5-B0FD-4ABB-84B4-4602E9A82BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{896D27C5-B0FD-4ABB-84B4-4602E9A82BC8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA6C7529-0729-4153-B724-AB2EE9150332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA6C7529-0729-4153-B724-AB2EE9150332}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA6C7529-0729-4153-B724-AB2EE9150332}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA6C7529-0729-4153-B724-AB2EE9150332}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B3E0051-6330-454E-BDFE-B561673AE88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B3E0051-6330-454E-BDFE-B561673AE88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B3E0051-6330-454E-BDFE-B561673AE88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B3E0051-6330-454E-BDFE-B561673AE88A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C95135D9-630D-498D-A1A0-B570EDAC71F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C95135D9-630D-498D-A1A0-B570EDAC71F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C95135D9-630D-498D-A1A0-B570EDAC71F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +43,14 @@ Global
 		{00C76EA9-8276-47AA-87D4-D3F24B6FA69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00C76EA9-8276-47AA-87D4-D3F24B6FA69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C76EA9-8276-47AA-87D4-D3F24B6FA69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EC5867A-87AA-4785-A414-02AAABF67E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC5867A-87AA-4785-A414-02AAABF67E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC5867A-87AA-4785-A414-02AAABF67E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC5867A-87AA-4785-A414-02AAABF67E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F1F4DA-3294-4BF0-9241-D64B4EEF9D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F1F4DA-3294-4BF0-9241-D64B4EEF9D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F1F4DA-3294-4BF0-9241-D64B4EEF9D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F1F4DA-3294-4BF0-9241-D64B4EEF9D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
