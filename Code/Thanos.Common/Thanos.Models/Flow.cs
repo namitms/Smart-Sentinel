@@ -33,7 +33,7 @@ namespace Thanos.Models
         public List<Asset> Assets { get; set; }
         public TANSITION_TYPE Transition { get; set; }
         public Step()
-        {
+        { 
             Persistance_Duration = 0;
             Assets = new List<Asset>();
         }
@@ -42,9 +42,11 @@ namespace Thanos.Models
     public class Asset
     {
         public ASSET_TYPES Asset_Type { get; set; }
+        public bool ColorLoop { get; set; }
         public Dictionary<string, object> Properties { get; set; }
         public Asset()
         {
+            ColorLoop = false;
             Properties = new Dictionary<string, object>();
         }
     }

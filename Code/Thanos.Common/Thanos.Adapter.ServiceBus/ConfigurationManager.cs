@@ -1,9 +1,10 @@
 ﻿using Microsoft.Azure.ServiceBus;
+using Microsoft.Extensions.Configuration;
 using Thanos.Models;
 
 namespace Thanos.Adapter.ServiceBus
 {
-    public class ConfigurationManager
+    public class QueueConfigurationManager
     {
         /// <summary>
         /// Brain Q client
@@ -19,9 +20,9 @@ namespace Thanos.Adapter.ServiceBus
         /// Get initial config
         /// </summary>
         /// <returns></returns>
-        private void SetInitialConfiguration()
+        private void SetInitialConfiguration(IConfiguration configuration)
         {
-            Configuration initConfig = new Configuration();
+            Configuration initConfig = new Configuration(configuration);
             BrainQueueClient = new QueueClient(initConfig.QueueConnectionString, initConfig.BrainQueue);
             NodeQueueClient = new QueueClient(initConfig.QueueConnectionString, initConfig.NodeQueue);
         }
@@ -29,9 +30,9 @@ namespace Thanos.Adapter.ServiceBus
         /// <summary>
         /// The only constructor
         /// </summary>
-        public ConfigurationManager()
+        public QueueConfigurationManager(IConfiguration configuration)
         {
-            SetInitialConfiguration();
+            SetInitialConfiguration(configuration);
         }
 
     }

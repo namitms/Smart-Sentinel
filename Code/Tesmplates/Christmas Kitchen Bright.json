@@ -1,0 +1,153 @@
+{
+	"ID": "Hue2",
+	"Frequency":1,
+	"Type":4,
+	"Properties":
+	{
+		"FLOW":
+		{
+		  "Current_Step_Index": 0,
+		  "current_Duration_Tick": 0,
+		  "Loop":"False",
+		  "timeline": 
+			{
+				  "totalDuration": 0,
+				  "steps":
+				   [
+					  {
+						  "persistance_Duration": 5,
+						  "assets": [
+                            {
+                                "asset_Type": 0,
+                                "ColorLoop": "True",
+                                "Properties":
+                                {
+                                    "URL":"60",
+                                    "HUE_HUB" : "GROUND",
+                                    "COLOR" : "FF0000",
+                                    "PAYLOAD": 
+                                    {
+                                        "bri": 255,
+                                        "sat":255,
+                                        "hue":255,
+                                        "ct":499,
+                                        "on": true
+                                    }
+                                }
+                            },
+                              {
+                                "asset_Type": 0,
+                                "ColorLoop": "True",
+                                "Properties":
+                                {
+                                    "URL":"1",
+                                    "HUE_HUB" : "GROUND",
+                                    "COLOR" : "00FF00",
+                                    "PAYLOAD": 
+                                    {
+                                        "bri": 255,
+                                        "sat":255,
+                                        "hue":255,
+                                        "ct":499,
+                                        "on": true
+                                    }
+                                }
+                            },
+                            {
+                                "asset_Type": 0,
+                                "ColorLoop": "True",
+                                "Properties":
+                                {
+                                    "URL":"2",
+                                    "HUE_HUB" : "GROUND",
+                                    "COLOR" : "FF0000",
+                                    "PAYLOAD": 
+                                    {
+                                        "bri": 255,
+                                        "sat":255,
+                                        "hue":255,
+                                        "ct":499,
+                                        "on": true
+                                    }
+                                }
+                            },
+                            {
+                                "asset_Type": 0,
+                                "ColorLoop": "True",
+                                "Properties":
+                                {
+                                    "URL":"3",
+                                    "HUE_HUB" : "GROUND",
+                                    "COLOR" : "CCCC00",
+                                    "PAYLOAD": 
+                                    {
+                                        "bri": 255,
+                                        "sat":255,
+                                        "hue":255,
+                                        "ct":499,
+                                        "on": true
+                                    }
+                                }
+                            },
+									  	{
+                                            "asset_Type": 0,
+                                            "ColorLoop": "True",
+											"Properties":
+											{
+												"URL":"56",
+												"HUE_HUB" : "GROUND",
+                                                "COLOR" : "00FF00",
+												"PAYLOAD": 
+                                                {
+                                                    "bri": 255,
+                                                    "sat":255,
+                                                    "hue":255,
+                                                    "ct":499,
+                                                    "on": true
+                                                }
+											}
+										},
+                                        {
+                                            "asset_Type": 0,
+                                            "ColorLoop": "True",
+											"Properties":
+											{
+												"URL":"57",
+												"HUE_HUB" : "GROUND",
+                                                "COLOR" : "CCCC00",
+												"PAYLOAD": 
+                                                {
+                                                    "bri": 255,
+                                                    "sat":255,
+                                                    "hue":255,
+                                                    "ct":499,
+                                                    "on": true
+                                                }
+											}
+										},
+                                        {
+                                            "asset_Type": 0,
+                                            "ColorLoop": "True",
+											"Properties":
+											{
+												"URL":"58",
+												"HUE_HUB" : "GROUND",
+                                                "COLOR" : "FF0000",
+												"PAYLOAD": 
+                                                {
+                                                    "bri": 255,
+                                                    "sat":255,
+                                                    "hue":255,
+                                                    "ct":499,
+                                                    "on": true
+                                                }
+											}
+										}
+						  			],
+						  "transition": 1
+					   }
+				   ]
+			}
+		}
+	}
+}

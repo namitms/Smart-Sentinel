@@ -22,7 +22,7 @@ namespace Thanos.Sentinel.Controllers
         }
 
         [HttpDelete]
-        public void Post(string id)
+        public void Delete(string id)
         {
             Task deleteTask = new Task() { ID = id.ToUpper().Trim() };
             Dispatcher.SendMessagesToNodeAsync(JsonConvert.SerializeObject(deleteTask), MESSAGE_TYPE.TASK_END).Wait();
