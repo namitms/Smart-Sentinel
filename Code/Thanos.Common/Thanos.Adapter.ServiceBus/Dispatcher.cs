@@ -1,4 +1,5 @@
 ﻿using Microsoft.Azure.ServiceBus;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Text;
 using Thanos.Models;
@@ -7,10 +8,24 @@ namespace Thanos.Adapter.ServiceBus
 {
     public static class Dispatcher
     {
+
+        public static IConfiguration configuration;
+        public static IConfiguration Configuration
+        {
+            get
+            {
+                return configuration;
+            }
+            set
+            {
+                congMgr = new QueueConfigurationManager(value);
+                configuration = value;
+            }
+        }
         /// <summary>
         /// The Q connection manager
         /// </summary>
-        private static ConfigurationManager congMgr = new ConfigurationManager();
+        public static QueueConfigurationManager congMgr;
 
         /// <summary>
         /// Send message

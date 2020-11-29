@@ -1,5 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Q42.HueApi;
+using Q42.HueApi.ColorConverters.Gamut;
+using Q42.HueApi.ColorConverters.Original;
 using Q42.HueApi.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -86,7 +88,7 @@ namespace Thanos.WatchDog.Events
                         {
                             transTime = flow.Timeline.Steps[flow.Current_Step_Index].Persistance_Duration;
                         }
-                        string response = SetState(a.Properties, TimeSpan.FromSeconds(transTime)).Result;
+                        string response = SetState(a.Properties, TimeSpan.FromSeconds(transTime), a.ColorLoop).Result;
                     }
                     Console.ForegroundColor = ConsoleColor.Magenta;
                     Console.WriteLine("*******   Executing FloW   *******");
@@ -145,7 +147,7 @@ namespace Thanos.WatchDog.Events
         }
 
 
-        private async Task<string> SetState(Dictionary<string, object> properties, TimeSpan transition)
+        private async Task<string> SetState(Dictionary<string, object> properties, TimeSpan transition, bool colorLoop)
         {
             string resString = null;
             try
@@ -171,6 +173,7 @@ namespace Thanos.WatchDog.Events
                 var command = new LightCommand();
                 command = JsonConvert.DeserializeObject<LightCommand>(properties[Statics.PAYLOAD_STRING].ToString());
                 command.TransitionTime = transition;
+
                 var color = new Q42.HueApi.ColorConverters.RGBColor(properties[Statics.COLOR_STRING].ToString());
 
                 float X = (float)color.R * 0.649926f + (float)color.G * 0.103455f + (float)color.B * 0.197109f;
@@ -178,11 +181,17 @@ namespace Thanos.WatchDog.Events
                 float Z = (float)color.R * 0.0000000f + (float)color.G * 0.053077f + (float)color.B * 1.035763f;
                 float x = X / (X + Y + Z);
                 float y = Y / (X + Y + Z);
-
-
-                command.SetColor(x, y);
+                command.Effect = Effect.None;
+                command.SetColor(color);
 
                 await HueClient.SendCommandAsync(command, new List<string> { path });
+
+                if (colorLoop)
+                {
+                    command.Effect = Effect.ColorLoop;
+
+                    await HueClient.SendCommandAsync(command, new List<string> { path });
+                }
             }
             catch (Exception e)
             {

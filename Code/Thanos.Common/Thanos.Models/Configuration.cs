@@ -1,4 +1,6 @@
-﻿namespace Thanos.Models
+﻿using Microsoft.Extensions.Configuration;
+
+namespace Thanos.Models
 {
     /// <summary>
     /// Initial configuration
@@ -21,9 +23,9 @@
         /// <summary>
         /// The only constructor
         /// </summary>
-        public Configuration()
+        public Configuration(IConfiguration configuration)
         {
-            QueueConnectionString = "Endpoint=sb://sentinel-celestial.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=sS1qO36t929mEYimV60qN3WBAiyfTPHBwLfN8U/29z8=";
+            QueueConnectionString = configuration["QueueConnectionString"];
             BrainQueue = "brainqueue";
             NodeQueue = "nodequeue";
         }

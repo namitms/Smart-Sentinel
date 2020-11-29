@@ -19,6 +19,8 @@ namespace Thanos.Sentinel
             trAction = new TaskResponseAction();
             State.State.Instance.HueGroundBaseURL = configuration.GetSection("Hue").GetSection("Bridges").GetSection("HueGroundBaseURL").Value;
             State.State.Instance.HueFirstBaseURL = configuration.GetSection("Hue").GetSection("Bridges").GetSection("HueFirstBaseURL").Value;
+            Receiver.Configuration = Configuration;
+            Dispatcher.Configuration = Configuration;
             Receiver.RegisterOnMessageHandlerAndReceiveMessages();
         }
 
