@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Thanos.Common\Thanos.Models\Thanos.Models.csproj" />
-    <ProjectReference Include="..\Thanos.Models\Thanos.Models.csproj" />
   </ItemGroup>
 
 </Project>

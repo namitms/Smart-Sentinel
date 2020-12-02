@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\Thanos.Sentinel.csproj": {}
+    "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\Thanos.Sentinel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj": {
+    "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj",
+        "projectUniqueName": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj",
         "projectName": "Thanos.Adapter.ServiceBus",
-        "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj",
-        "packagesPath": "C:\\Users\\namts\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\obj\\",
+        "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj",
+        "packagesPath": "C:\\Users\\namit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\namts\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\namit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,9 +29,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj": {
-                "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj"
+              "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj": {
+                "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj"
               }
             }
           }
@@ -41,6 +45,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Azure.ServiceBus": {
               "target": "Package",
@@ -70,21 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj": {
+    "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj",
+        "projectUniqueName": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj",
         "projectName": "Thanos.Models",
-        "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj",
-        "packagesPath": "C:\\Users\\namts\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\obj\\",
+        "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj",
+        "packagesPath": "C:\\Users\\namit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\namts\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\namit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,6 +104,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -107,6 +116,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -132,21 +142,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj": {
+    "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj",
+        "projectUniqueName": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj",
         "projectName": "Thanos.Sentinel.State",
-        "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj",
-        "packagesPath": "C:\\Users\\namts\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\obj\\",
+        "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj",
+        "packagesPath": "C:\\Users\\namit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\namts\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\namit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,9 +171,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj": {
-                "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj"
+              "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj": {
+                "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj"
               }
             }
           }
@@ -173,6 +187,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -188,21 +203,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\Thanos.Sentinel.csproj": {
+    "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\Thanos.Sentinel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\Thanos.Sentinel.csproj",
+        "projectUniqueName": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\Thanos.Sentinel.csproj",
         "projectName": "Thanos.Sentinel",
-        "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\Thanos.Sentinel.csproj",
-        "packagesPath": "C:\\Users\\namts\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\obj\\",
+        "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\Thanos.Sentinel.csproj",
+        "packagesPath": "C:\\Users\\namit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\namts\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\namit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -214,12 +232,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj": {
-                "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj"
+              "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj": {
+                "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj"
               },
-              "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj": {
-                "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj"
+              "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj": {
+                "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Sentinel\\Thanos.Sentinel.State\\Thanos.Sentinel.State.csproj"
               }
             }
           }
@@ -232,6 +251,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Azure.ServiceBus": {
               "target": "Package",
@@ -272,7 +292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

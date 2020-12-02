@@ -6066,19 +6066,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\namts\\.nuget\\packages\\": {}
+    "C:\\Users\\namit\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Actions\\Thanos.WatchDog.Actions.csproj",
+      "projectUniqueName": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Actions\\Thanos.WatchDog.Actions.csproj",
       "projectName": "Thanos.WatchDog.Actions",
-      "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Actions\\Thanos.WatchDog.Actions.csproj",
-      "packagesPath": "C:\\Users\\namts\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Actions\\obj\\",
+      "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Actions\\Thanos.WatchDog.Actions.csproj",
+      "packagesPath": "C:\\Users\\namit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Actions\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\namts\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\namit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6090,18 +6094,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj": {
-              "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj"
+            "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj": {
+              "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj"
             },
-            "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj": {
-              "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.Adapter.ServiceBus\\Thanos.Adapter.ServiceBus.csproj"
+            "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.State\\Thanos.WatchDog.State.csproj": {
+              "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.State\\Thanos.WatchDog.State.csproj"
             },
-            "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.State\\Thanos.WatchDog.State.csproj": {
-              "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.State\\Thanos.WatchDog.State.csproj"
-            },
-            "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Worker\\Thanos.WatchDog.Worker.csproj": {
-              "projectPath": "C:\\Users\\namts\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Worker\\Thanos.WatchDog.Worker.csproj"
+            "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Worker\\Thanos.WatchDog.Worker.csproj": {
+              "projectPath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.WatchDog.Worker\\Thanos.WatchDog.Worker.csproj"
             }
           }
         }
@@ -6114,6 +6116,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -6129,7 +6132,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
