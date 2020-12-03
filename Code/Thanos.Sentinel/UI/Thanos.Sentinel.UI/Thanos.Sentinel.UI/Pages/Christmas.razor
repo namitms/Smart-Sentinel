@@ -1,0 +1,69 @@
+﻿@page "/christmas"
+
+@using Thanos.Sentinel.UI.Data
+@inject BlogService blogService
+@using Microsoft.AspNetCore.WebUtilities
+@inject NavigationManager NavManager
+
+<h1>Christmas</h1>
+
+
+
+@if (blogs == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Flow</th>
+                <th>Invoke</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var blog in blogs)
+            {
+                <tr>
+                    <td>@blog</td>
+                    <td><button class="btn btn-primary" @onclick="() => Wave(blog)">Start Wave</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+<p> @message</p>
+
+@code {
+
+    private string message;
+    private List<string> blogs = null;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Key", out var _initialCount))
+        {
+            if (_initialCount != "spirit")
+            {
+                NavManager.NavigateTo("/");
+            }
+        }
+        else
+        {
+            NavManager.NavigateTo("/");
+        }
+
+        blogs = await blogService.GetLoops();
+    }
+
+    private void Wave(string flow)
+    {
+        message = blogService.GetJson(flow).Result;
+        //message = flow + " # " + DateTime.Now.ToString();
+    }
+}

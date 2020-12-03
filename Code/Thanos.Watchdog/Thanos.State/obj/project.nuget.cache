@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MA/YlOf43swkWqlI7xAvduk7i0JG8kJB9uYIKBUesPmVHSYxPbaoWjIMPUbqS+/X0oTxeMM2M/GaJ1LgWBpj3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Watchdog\\Thanos.State\\Thanos.WatchDog.State.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\namit\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\namit\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\namit\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

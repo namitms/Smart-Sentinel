@@ -21,6 +21,7 @@
         public static string TASK_RESPONSE_STRING = "TASK_REPONSE";
         public static string HUE_HUB_GROUND = "GROUND";
         public static string HUE_HUB_FIRST = "FIRST";
+        public static string ALERT_MODE = "ALERT";
         public static string REPONSE_URL_STRING = "REPONSE_URL";
         public static string EDGE_RESPONSE_TRIGGER_STRING = "EDGE_RESPONSE_TRIGGER";
         public static string EDGE_RESPONSE_ACTION_STRING = "EDGE_RESPONSE_ACTION";

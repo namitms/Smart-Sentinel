@@ -91,7 +91,7 @@ namespace Thanos.WatchDog.Events
                         string response = SetState(a.Properties, TimeSpan.FromSeconds(transTime), a.ColorLoop).Result;
                     }
                     Console.ForegroundColor = ConsoleColor.Magenta;
-                    Console.WriteLine("*******   Executing FloW   *******");
+                    Console.WriteLine("*******   Executing Flow   *******");
                     Console.WriteLine("Time: " + DateTime.Now + ", FlowID :" + task.ID + " Tick : " + flow.Current_Duration_Tick);
                 }
                 //Move to next step
@@ -182,6 +182,24 @@ namespace Thanos.WatchDog.Events
                 float x = X / (X + Y + Z);
                 float y = Y / (X + Y + Z);
                 command.Effect = Effect.None;
+                command.Alert = Alert.None;
+                if (properties.ContainsKey(Statics.ALERT_MODE) && properties[Statics.ALERT_MODE] != null)
+                {
+                    int alertmode = int.Parse(properties[Statics.ALERT_MODE].ToString());
+                    switch(alertmode)
+                    {
+                        case 1:
+                            {
+                                command.Alert = Alert.Once;
+                                break;
+                            }
+                        case 2:
+                            {
+                                command.Alert = Alert.Multiple;
+                                break;
+                            }
+                    }
+                }
                 command.SetColor(color);
 
                 await HueClient.SendCommandAsync(command, new List<string> { path });

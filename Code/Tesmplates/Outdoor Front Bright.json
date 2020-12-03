@@ -1,0 +1,193 @@
+{
+  "ID": "Hue2",
+  "Frequency": 1,
+  "Type": 4,
+  "Properties": {
+    "FLOW": {
+      "Current_Step_Index": 0,
+      "current_Duration_Tick": 0,
+      "Loop": "False",
+      "timeline": {
+        "totalDuration": 0,
+        "steps": [
+          {
+            "persistance_Duration": 5,
+            "assets": [
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "47",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "FF0000",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              },
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "46",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "00FF00",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              },
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "23",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "0000FF",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              },
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "49",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "888800",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              },
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "50",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "008888",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              },
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "51",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "880088",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              },
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "52",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "3300AA",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              },
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "53",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "AA3300",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              },
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "54",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "00AA33",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              },
+              {
+                "asset_Type": 0,
+                "ColorLoop": true,
+                "Properties": {
+                  "URL": "55",
+                  "HUE_HUB": "GROUND",
+                  "COLOR": "AA0033",
+                  "PAYLOAD": {
+                    "bri": 150,
+                    "sat": 150,
+                    "hue": 255,
+                    "ct": 60,
+                    "on": true
+                  }
+                }
+
+              }
+            ],
+            "transition": 1
+          }
+        ]
+      }
+    }
+  }
+}

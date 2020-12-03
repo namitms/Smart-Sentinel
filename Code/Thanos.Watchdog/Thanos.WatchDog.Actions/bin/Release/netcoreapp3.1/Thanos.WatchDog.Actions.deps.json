@@ -56,6 +56,25 @@
           }
         }
       },
+      "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
       "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.2": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -198,6 +217,25 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Q42.HueApi/3.15.8": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Q42.HueApi.dll": {
+            "assemblyVersion": "3.15.8.0",
+            "fileVersion": "3.15.8.0"
+          }
+        }
+      },
+      "Q42.HueApi.ColorConverters/3.14.0": {
+        "runtime": {
+          "lib/netstandard2.0/Q42.HueApi.ColorConverters.dll": {
+            "assemblyVersion": "3.14.0.0",
+            "fileVersion": "3.14.0.0"
           }
         }
       },
@@ -995,6 +1033,7 @@
       "Thanos.Adapter.ServiceBus/1.0.0": {
         "dependencies": {
           "Microsoft.Azure.ServiceBus": "4.1.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Newtonsoft.Json": "12.0.3",
           "Thanos.Models": "1.0.0"
         },
@@ -1004,6 +1043,7 @@
       },
       "Thanos.Models/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
@@ -1012,6 +1052,8 @@
       },
       "Thanos.WatchDog.Events/1.0.0": {
         "dependencies": {
+          "Q42.HueApi": "3.15.8",
+          "Q42.HueApi.ColorConverters": "3.14.0",
           "Thanos.Adapter.ServiceBus": "1.0.0",
           "Thanos.Models": "1.0.0",
           "Thanos.WatchDog.State": "1.0.0"
@@ -1064,6 +1106,20 @@
       "sha512": "sha512-ywpQaK1klu1IoX4VUf+TBmU4kR71aWNI6O5rEIJU8z28L2xhJhnIm7k2Nf1Zu/PygeuOtt5g0QPCk5+lLltbeQ==",
       "path": "microsoft.azure.services.appauthentication/1.0.3",
       "hashPath": "microsoft.azure.services.appauthentication.1.0.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
+      "path": "microsoft.extensions.configuration.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.2": {
       "type": "package",
@@ -1134,6 +1190,20 @@
       "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Q42.HueApi/3.15.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UbWCzRRgGrjM/2rcvSDjsB8bLv1/jiN2DJonDjC6RT08wAywrhSqk73/aegfQyy484p2JLs7e/yeGumbyivXBw==",
+      "path": "q42.hueapi/3.15.8",
+      "hashPath": "q42.hueapi.3.15.8.nupkg.sha512"
+    },
+    "Q42.HueApi.ColorConverters/3.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MMFCbRukuEFHL80dwruhczQmwpzruufou6CJy+hNaEJCPIAidIR0RKRkgD73/gq+xKa30+s8GF5v8AAwTkTwRA==",
+      "path": "q42.hueapi.colorconverters/3.14.0",
+      "hashPath": "q42.hueapi.colorconverters.3.14.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "oRMRro9OuzcVBvBlGkt27XNUoTuK1zymJH7uvGRZqF5EKe1y4fjJcUIfDWeHlZaj9Ix2ymPrWBiY2FzsZqlayQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\namit\\Documents\\GitHub\\Smart-Sentinel\\Code\\Thanos.Common\\Thanos.Models\\Thanos.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\namit\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\namit\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\namit\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

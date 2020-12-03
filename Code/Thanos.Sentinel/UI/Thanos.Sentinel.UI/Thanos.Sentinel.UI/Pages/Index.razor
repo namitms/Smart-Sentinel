@@ -1,0 +1,33 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.WebUtilities
+@inject NavigationManager NavManager
+
+<h1>Welcome to Sentinel!</h1>
+
+<p>@errormessagee</p>
+
+@code {
+    string errormessagee = null;
+    int currentCount = 0;
+
+    protected override void OnInitialized()
+    {
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Key", out var _initialCount))
+        {
+            if(_initialCount != "spirit")
+            {
+                errormessagee = "Please login";
+            }
+        }
+        else
+        {
+            errormessagee = "Please login";
+        }
+    }
+
+    void IncrementCount()
+    {
+        currentCount++;
+    }
+}
