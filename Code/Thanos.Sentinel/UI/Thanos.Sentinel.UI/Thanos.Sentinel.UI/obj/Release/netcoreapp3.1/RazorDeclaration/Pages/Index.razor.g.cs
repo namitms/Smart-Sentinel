@@ -105,9 +105,9 @@ using Microsoft.AspNetCore.WebUtilities;
         {
             IsDisabled = false;
             var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
-            if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Key", out var _initialCount))
+            if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Key", out var pwd))
             {
-                if (_initialCount != "spirit")
+                if (pwd != "spirit")
                 {
                     errormessagee = "Please login";
                 }
@@ -131,7 +131,7 @@ using Microsoft.AspNetCore.WebUtilities;
 
     void Login()
     {
-        if (key != "spirit")
+        if (key.ToLower() != "spirit")
         {
             errormessagee = "Wrong Key";
         }

@@ -6,7 +6,7 @@
 @inject NavigationManager NavManager
 @inject State state
 
-<h1>Christmas</h1>
+<h1>🎅 Christmas ☃️🦌</h1>
 
 @if (blogs == null)
 {
@@ -28,7 +28,7 @@ else
         @foreach (var blog in blogs)
             {
         <tr>
-            <td>@blog</td>
+            <td>🎄 @blog</td>
             <td><button class="btn btn-primary" @onclick="() => Wave(blog)">Start Wave</button></td>
         </tr>
             }
