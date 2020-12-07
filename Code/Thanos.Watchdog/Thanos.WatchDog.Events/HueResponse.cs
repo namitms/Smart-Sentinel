@@ -174,6 +174,8 @@ namespace Thanos.WatchDog.Events
                 command = JsonConvert.DeserializeObject<LightCommand>(properties[Statics.PAYLOAD_STRING].ToString());
                 command.TransitionTime = transition;
 
+                
+
                 var color = new Q42.HueApi.ColorConverters.RGBColor(properties[Statics.COLOR_STRING].ToString());
 
                 float X = (float)color.R * 0.649926f + (float)color.G * 0.103455f + (float)color.B * 0.197109f;

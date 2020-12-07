@@ -75,6 +75,20 @@ using Thanos.Sentinel.UI.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 1 "C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\Shared\NavMenu.razor"
+using Thanos.Sentinel.UI.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\Shared\NavMenu.razor"
+using Microsoft.AspNetCore.WebUtilities;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -83,7 +97,7 @@ using Thanos.Sentinel.UI.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\Shared\NavMenu.razor"
+#line 39 "C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
@@ -94,9 +108,23 @@ using Thanos.Sentinel.UI.Shared;
         collapseNavMenu = !collapseNavMenu;
     }
 
+    void Logout()
+    {
+        state.IsLoggedIn = false;
+        NavManager.NavigateTo("/");
+    }
+
+    private void Clear()
+    {
+        blogService.Clear();
+    }
+
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private State state { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlogService blogService { get; set; }
     }
 }
 #pragma warning restore 1591

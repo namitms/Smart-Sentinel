@@ -19,7 +19,6 @@ C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Se
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Thanos.Sentinel.UI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Thanos.Sentinel.UI.RazorComponent.input.cache
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\RazorDeclaration\Pages\Christmas.razor.g.cs
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
@@ -33,7 +32,6 @@ C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Se
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Thanos.Sentinel.UI.TagHelpers.output.cache
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Thanos.Sentinel.UI.RazorCoreGenerate.cache
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Razor\App.razor.g.cs
-C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Razor\Pages\Christmas.razor.g.cs
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
@@ -55,3 +53,7 @@ C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Se
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Thanos.Sentinel.UI.dll
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Thanos.Sentinel.UI.pdb
 C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Thanos.Sentinel.UI.genruntimeconfig.cache
+C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\RazorDeclaration\Pages\ChristmasBack.razor.g.cs
+C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\RazorDeclaration\Pages\ChristmasFront.razor.g.cs
+C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Razor\Pages\ChristmasBack.razor.g.cs
+C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\obj\Release\netcoreapp3.1\Razor\Pages\ChristmasFront.razor.g.cs

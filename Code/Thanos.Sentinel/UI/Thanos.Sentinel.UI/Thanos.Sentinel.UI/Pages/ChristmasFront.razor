@@ -1,0 +1,68 @@
+﻿@page "/christmasfront"
+
+@using Thanos.Sentinel.UI.Data
+@inject BlogService blogService
+@using Microsoft.AspNetCore.WebUtilities
+@inject NavigationManager NavManager
+@inject State state
+
+<h1>Christmas</h1>
+
+@if (blogs == null)
+{
+<p><em>Loading...</em></p>
+}
+else
+{
+<table class="table">
+    <thead>
+        <tr>
+            <th>Flow</th>
+            <th>Invoke</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><button class="btn btn-primary" @onclick="() => Clear()">Delete All</button></td>
+        </tr>
+        @foreach (var blog in blogs)
+            {
+        <tr>
+            <td>@blog</td>
+            <td><button class="btn btn-primary" @onclick="() => Wave(blog)">Start Wave</button></td>
+        </tr>
+            }
+    </tbody>
+</table>
+}
+
+
+<p> @message</p>
+
+@code {
+
+    private string message;
+    private List<string> blogs = null;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (state.IsLoggedIn == false)
+        {
+            NavManager.NavigateTo("/");
+        }
+
+        blogs = await blogService.GetLoops();
+    }
+
+    private void Wave(string flow)
+    {
+        message = blogService.GetJson(flow).Result;
+        //message = flow + " # " + DateTime.Now.ToString();
+    }
+
+    private void Clear()
+    {
+        blogService.Clear();
+    }
+}

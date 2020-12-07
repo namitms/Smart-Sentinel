@@ -1,8 +1,4 @@
-﻿using Microsoft.Azure.ServiceBus;
-using Newtonsoft.Json;
-using System;
-using System.Text;
-using System.Threading;
+﻿using System;
 using Thanos.Models;
 
 namespace Thanos.Adapter.ServiceBus

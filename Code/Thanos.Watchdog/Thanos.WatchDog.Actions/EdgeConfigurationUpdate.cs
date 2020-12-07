@@ -17,6 +17,7 @@ namespace Thanos.WatchDog.Actions
             Console.WriteLine("*******   Setting Configuration   *******");
             State.State.Instance.EdgeConfiguration = e;
             Task hearBeat = new Task();
+            hearBeat.ID = Statics.HEARBEAT;
             hearBeat.Frequency = 5;
             hearBeat.Type = TASK_TYPE.HEART_BEAT;
             Worker.Instance.Tasks.Add(hearBeat);

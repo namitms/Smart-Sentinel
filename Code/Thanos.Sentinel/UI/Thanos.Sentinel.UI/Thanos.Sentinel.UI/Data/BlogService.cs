@@ -1,9 +1,7 @@
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,7 +31,7 @@ namespace Thanos.Sentinel.UI.Data
             List<string> files = new List<string>();
             string blobConectionString = "DefaultEndpointsProtocol=https;AccountName=stx15chatops;AccountKey=m3W74xcgtxp7aNZqdN0WiyKYg5dPG0ScDbyY9FPLuF5CC+TXZlpYIXkFER3mC1rmbQpTFwioLkPWiCYj6wVEsw==;EndpointSuffix=core.windows.net";
             BlobServiceClient blobServiceClient = new BlobServiceClient(blobConectionString);
-            var blobContainerClient =  blobServiceClient.GetBlobContainerClient("templates");
+            var blobContainerClient = blobServiceClient.GetBlobContainerClient("templates");
 
             foreach (BlobItem blobItem in blobContainerClient.GetBlobs())
             {
@@ -51,14 +49,22 @@ namespace Thanos.Sentinel.UI.Data
             var stream = new MemoryStream();
             blobContainerClient.GetBlobClient(blobName).DownloadTo(stream);
             byte[] bytes = stream.ToArray();
-            
-            string jsonString =  Encoding.UTF8.GetString(bytes);
+
+            string jsonString = Encoding.UTF8.GetString(bytes);
 
             var client = new HttpClient();
             string url = "https://thanossentinel.azurewebsites.net/api/task";
-            var resultCode =  client.PostAsync(url, new StringContent(jsonString, Encoding.UTF8, "application/json"));
+            var resultCode = client.PostAsync(url, new StringContent(jsonString, Encoding.UTF8, "application/json"));
 
             return jsonString;
+        }
+
+        public async Task Clear()
+        {
+            var client = new HttpClient();
+            string url = "https://thanossentinel.azurewebsites.net/api/task?id=ALL";
+            var resultCode = client.DeleteAsync(url);
+            return;
         }
     }
 }

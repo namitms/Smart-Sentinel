@@ -1,33 +1,81 @@
 ﻿@page "/"
 @using Microsoft.AspNetCore.WebUtilities
 @inject NavigationManager NavManager
+@inject State state
 
-<h1>Welcome to Sentinel!</h1>
+<h1>Welcome to Sentinel 🤖</h1>
 
-<p>@errormessagee</p>
+
+
+<table style="height:auto; width:auto">
+    <tbody>
+        <tr>
+            <td>
+                <p  style="color:red;">@errormessagee</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input hidden ="@IsDisabled"  style="width: 350px; background-color: white; color: darkblue" class="btn btn-primary" @bind="key" />
+            </td>
+            <td>
+                <button class="btn btn-primary" hidden="@IsDisabled" @onclick="() => Login()">Login</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<img style="height:420px;" src="https://media0.giphy.com/media/t7y1lOOXQ43zW/source.gif" alt="Jarvis" />
 
 @code {
     string errormessagee = null;
     int currentCount = 0;
+    bool IsDisabled = false;
+    string key = null;
 
     protected override void OnInitialized()
     {
-        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
-        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Key", out var _initialCount))
+
+        if (state.IsLoggedIn == false)
         {
-            if(_initialCount != "spirit")
+            IsDisabled = false;
+            var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+            if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Key", out var _initialCount))
+            {
+                if (_initialCount != "spirit")
+                {
+                    errormessagee = "Please login";
+                }
+                else
+                {
+                    state.IsLoggedIn = true;
+                    IsDisabled = true;
+                }
+            }
+            else
             {
                 errormessagee = "Please login";
             }
+
         }
         else
         {
-            errormessagee = "Please login";
+            IsDisabled = true;
         }
     }
 
-    void IncrementCount()
+    void Login()
     {
-        currentCount++;
+        if (key != "spirit")
+        {
+            errormessagee = "Wrong Key";
+        }
+        else
+        {
+            state.IsLoggedIn = true;
+
+            IsDisabled = true;
+            errormessagee = "";
+        }
     }
+
 }

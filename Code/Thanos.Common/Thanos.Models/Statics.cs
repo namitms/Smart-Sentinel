@@ -13,6 +13,7 @@
 
     public static class Statics
     {
+        public static string HEARBEAT = "HEARTBEAT";
         public static string URL_STRING = "URL";
         public static string PAYLOAD_STRING = "PAYLOAD";
         public static string COLOR_STRING = "COLOR";

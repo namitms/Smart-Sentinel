@@ -76,80 +76,30 @@ using Thanos.Sentinel.UI.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\Pages\Index.razor"
+#line 3 "C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\Pages\ChristmasBack.razor"
+using Thanos.Sentinel.UI.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\Pages\ChristmasBack.razor"
 using Microsoft.AspNetCore.WebUtilities;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/christmasback")]
+    public partial class ChristmasBack : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 29 "C:\Users\namit\Documents\GitHub\Smart-Sentinel\Code\Thanos.Sentinel\UI\Thanos.Sentinel.UI\Thanos.Sentinel.UI\Pages\Index.razor"
-       
-    string errormessagee = null;
-    int currentCount = 0;
-    bool IsDisabled = false;
-    string key = null;
-
-    protected override void OnInitialized()
-    {
-
-        if (state.IsLoggedIn == false)
-        {
-            IsDisabled = false;
-            var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
-            if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Key", out var _initialCount))
-            {
-                if (_initialCount != "spirit")
-                {
-                    errormessagee = "Please login";
-                }
-                else
-                {
-                    state.IsLoggedIn = true;
-                    IsDisabled = true;
-                }
-            }
-            else
-            {
-                errormessagee = "Please login";
-            }
-
-        }
-        else
-        {
-            IsDisabled = true;
-        }
-    }
-
-    void Login()
-    {
-        if (key != "spirit")
-        {
-            errormessagee = "Wrong Key";
-        }
-        else
-        {
-            state.IsLoggedIn = true;
-
-            IsDisabled = true;
-            errormessagee = "";
-        }
-    }
-
-
-#line default
-#line hidden
-#nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private State state { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private BlogService blogService { get; set; }
     }
 }
 #pragma warning restore 1591

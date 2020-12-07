@@ -33,7 +33,7 @@ namespace Thanos.Models
         public List<Asset> Assets { get; set; }
         public TANSITION_TYPE Transition { get; set; }
         public Step()
-        { 
+        {
             Persistance_Duration = 0;
             Assets = new List<Asset>();
         }

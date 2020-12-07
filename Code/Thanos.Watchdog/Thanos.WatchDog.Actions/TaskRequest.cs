@@ -17,13 +17,29 @@ namespace Thanos.WatchDog.Actions
 
         private void EventPub_TaskEndRequestReceived(object sender, Task e)
         {
-            var delTask = Worker.Instance.Tasks.Where(t => t.ID == e.ID.ToUpper().Trim()).FirstOrDefault();
-            if (delTask != null)
+            if (e.ID.ToUpper().Trim() == "ALL")
             {
-                Worker.Instance.Tasks.Remove(delTask);
-                Console.WriteLine("*******   Removing Task   *******");
-                Console.WriteLine("Task ID : " + delTask.ID);
-                Console.WriteLine("Task Type : " + delTask.Type.ToString());
+                var delTask = Worker.Instance.Tasks.Where(t => t.ID != Statics.HEARBEAT);
+                Console.WriteLine("*******   Removing All   *******");
+                Console.WriteLine("Number of tasks : " + delTask.Count());
+                foreach (var t in delTask)
+                {
+                    Worker.Instance.Tasks.Remove(t);
+                    if (delTask.Count() <= 0)
+                    { break; }
+                }
+                Console.WriteLine("Done");
+            }
+            else
+            {
+                var delTask = Worker.Instance.Tasks.Where(t => t.ID == e.ID.ToUpper().Trim()).FirstOrDefault();
+                if (delTask != null)
+                {
+                    Worker.Instance.Tasks.Remove(delTask);
+                    Console.WriteLine("*******   Removing Task   *******");
+                    Console.WriteLine("Task ID : " + delTask.ID);
+                    Console.WriteLine("Task Type : " + delTask.Type.ToString());
+                }
             }
         }
 
