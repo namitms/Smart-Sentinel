@@ -1,0 +1,3432 @@
+{
+  "1": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 8418,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.41
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:05:44"
+    },
+    "type": "Extended color light",
+    "name": "Dining lamp 1",
+    "modelid": "LCT010",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:02:93:f4:ae-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "292E579A",
+    "productid": "Philips-LCT010-1-A19ECLv4"
+  },
+  "2": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 8418,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.41
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:05:35"
+    },
+    "type": "Extended color light",
+    "name": "Dining lamp 2",
+    "modelid": "LCT010",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:02:d9:b5:b8-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "292E579A",
+    "productid": "Philips-LCT010-1-A19ECLv4"
+  },
+  "3": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 8418,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.41
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:05:29"
+    },
+    "type": "Extended color light",
+    "name": "Dining lamp 3",
+    "modelid": "LCT010",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:02:d9:bc:54-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "292E579A",
+    "productid": "Philips-LCT010-1-A19ECLv4"
+  },
+  "4": {
+    "state": {
+      "on": false,
+      "bri": 127,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2019-11-27T08:29:31"
+    },
+    "type": "Color temperature light",
+    "name": "Port 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:4a:83-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "5": {
+    "state": {
+      "on": false,
+      "bri": 127,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:00:02"
+    },
+    "type": "Color temperature light",
+    "name": "Port 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:72:0e-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "6": {
+    "state": {
+      "on": false,
+      "bri": 127,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2019-11-27T08:41:54"
+    },
+    "type": "Color temperature light",
+    "name": "Port 3",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:4e:04-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "7": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:04:59"
+    },
+    "type": "Color temperature light",
+    "name": "Garage 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:39:4d-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "8": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:04:51"
+    },
+    "type": "Color temperature light",
+    "name": "Garage 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:3d:68-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "9": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:04:45"
+    },
+    "type": "Color temperature light",
+    "name": "Ent 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:36:4a-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "10": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:04:40"
+    },
+    "type": "Color temperature light",
+    "name": "Ent 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:39:bc-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "11": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-23T04:04:06"
+    },
+    "type": "Color temperature light",
+    "name": "Hallway 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b2:af-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "12": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-23T04:04:01"
+    },
+    "type": "Color temperature light",
+    "name": "Hallway 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b2:d4-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "13": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-23T04:03:55"
+    },
+    "type": "Color temperature light",
+    "name": "Hallway 3",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b2:f1-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "14": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-27T03:53:14"
+    },
+    "type": "Color temperature light",
+    "name": "Guest Bed5 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b2:e4-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "15": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-27T03:53:08"
+    },
+    "type": "Color temperature light",
+    "name": "Guest Bed5 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:36:69-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "16": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-27T03:53:03"
+    },
+    "type": "Color temperature light",
+    "name": "Guest Bed5 3",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:72:41-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "17": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-27T03:52:58"
+    },
+    "type": "Color temperature light",
+    "name": "Guest Bed5 4",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:36:aa-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "18": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-09-24T04:22:48"
+    },
+    "type": "Color temperature light",
+    "name": "WIR2 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b4:9c-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "19": {
+    "state": {
+      "on": true,
+      "bri": 254,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-09-25T04:57:23"
+    },
+    "type": "Color temperature light",
+    "name": "Ensuite2 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:36:68-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "20": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-17T03:56:22"
+    },
+    "type": "Color temperature light",
+    "name": "Study Nook 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b5:43-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "21": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-17T03:56:17"
+    },
+    "type": "Color temperature light",
+    "name": "Study Nook 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b2:e1-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "22": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:04:34"
+    },
+    "type": "Color temperature light",
+    "name": "Laundry 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:ad:ed-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "23": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 6912,
+      "sat": 251,
+      "effect": "none",
+      "xy": [
+        0.5487,
+        0.4136
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-07-31T04:52:14"
+    },
+    "type": "Extended color light",
+    "name": "Front outdoor 3",
+    "modelid": "1742930P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor wall",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 404,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "walllantern",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:90:4b:ef-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "17CC6E66",
+    "productid": "3241-3127-7871_HC01_PSU01"
+  },
+  "24": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-05-29T04:50:58"
+    },
+    "type": "Color temperature light",
+    "name": "WIL 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b2:52-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "25": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:04:26"
+    },
+    "type": "Color temperature light",
+    "name": "Walk In Pantry 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b4:95-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "26": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:04:18"
+    },
+    "type": "Color temperature light",
+    "name": "Family 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b5:78-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "27": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:04:12"
+    },
+    "type": "Color temperature light",
+    "name": "Family 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b4:7c-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "28": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:04:04"
+    },
+    "type": "Color temperature light",
+    "name": "Family 3",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b4:71-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "29": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:03:58"
+    },
+    "type": "Color temperature light",
+    "name": "Family 4",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b5:39-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "30": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:03:50"
+    },
+    "type": "Color temperature light",
+    "name": "Family 5",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:ad:ef-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "31": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:03:42"
+    },
+    "type": "Color temperature light",
+    "name": "Family 6",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:ae:fd-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "32": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:03:34"
+    },
+    "type": "Color temperature light",
+    "name": "Kitchen 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b4:90-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "33": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:03:28"
+    },
+    "type": "Color temperature light",
+    "name": "Kitchen 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b5:5c-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "34": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:03:20"
+    },
+    "type": "Color temperature light",
+    "name": "Dining 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:ad:ba-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "35": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:03:12"
+    },
+    "type": "Color temperature light",
+    "name": "Dining 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:ad:be-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "36": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:00:16"
+    },
+    "type": "Color temperature light",
+    "name": "Outdoor 1",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b3:b4-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "37": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:03:04"
+    },
+    "type": "Color temperature light",
+    "name": "Outdoor 2",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b4:86-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "38": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:02:55"
+    },
+    "type": "Color temperature light",
+    "name": "Outdoor 3",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:ad:b5-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "39": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:02:47"
+    },
+    "type": "Color temperature light",
+    "name": "Outdoor 4",
+    "modelid": "LDT001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 600,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:0f:b3:bb-0b",
+    "swversion": "5.130.1.30000"
+  },
+  "40": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "alert": "select",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:02:39"
+    },
+    "type": "Dimmable light",
+    "name": "Outdoor wall 1",
+    "modelid": "1744430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor wall",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 1259
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "walllantern",
+      "function": "functional",
+      "direction": "vertical",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:90:35:c9-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "0B33D602",
+    "productid": "3241-3129-8821_HC01_PSU01"
+  },
+  "41": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "alert": "select",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:02:31"
+    },
+    "type": "Dimmable light",
+    "name": "Outdoor wall 2",
+    "modelid": "1744430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor wall",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 1259
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "walllantern",
+      "function": "functional",
+      "direction": "vertical",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:27:b2:91-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "0B33D602",
+    "productid": "3241-3129-8821_HC01_PSU01"
+  },
+  "42": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "alert": "select",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:02:23"
+    },
+    "type": "Dimmable light",
+    "name": "Outdoor wall 3",
+    "modelid": "1744430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor wall",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 1259
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "walllantern",
+      "function": "functional",
+      "direction": "vertical",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:fd:15:e4-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "0B33D602",
+    "productid": "3241-3129-8821_HC01_PSU01"
+  },
+  "43": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "alert": "select",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-23T03:59:46"
+    },
+    "type": "Dimmable light",
+    "name": "Outdoor wall 4",
+    "modelid": "1744430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor wall",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 1259
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "walllantern",
+      "function": "functional",
+      "direction": "vertical",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:27:18:17-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "0B33D602",
+    "productid": "3241-3129-8821_HC01_PSU01"
+  },
+  "44": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "alert": "select",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:01:17"
+    },
+    "type": "Dimmable light",
+    "name": "Outdoor wall 4",
+    "modelid": "1744430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor wall",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 1259
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "walllantern",
+      "function": "functional",
+      "direction": "vertical",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:27:a2:f2-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "0B33D602",
+    "productid": "3241-3129-8821_HC01_PSU01"
+  },
+  "45": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 9969,
+      "sat": 213,
+      "effect": "none",
+      "xy": [
+        0.471,
+        0.4473
+      ],
+      "ct": 389,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-05-23T04:25:41"
+    },
+    "type": "Extended color light",
+    "name": "Back outdoor 4",
+    "modelid": "1743430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 404,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:91:25:5d-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "17CC6E66",
+    "productid": "3241-3127-7871_HC01_PSU01"
+  },
+  "46": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 6912,
+      "sat": 251,
+      "effect": "none",
+      "xy": [
+        0.5487,
+        0.4136
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-02-15T03:57:30"
+    },
+    "type": "Extended color light",
+    "name": "Front outdoor 1",
+    "modelid": "1742930P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor wall",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 404,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "walllantern",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:fb:a2:1a-0b",
+    "swversion": "1.65.9_hB3217DF",
+    "swconfigid": "FA142228",
+    "productid": "3241-3127-7871_HC02_PSU01"
+  },
+  "47": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 6912,
+      "sat": 251,
+      "effect": "none",
+      "xy": [
+        0.5487,
+        0.4136
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:01:01"
+    },
+    "type": "Extended color light",
+    "name": "Front outdoor 2",
+    "modelid": "1742930P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor wall",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 404,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "walllantern",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:90:08:f8-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "17CC6E66",
+    "productid": "3241-3127-7871_HC01_PSU01"
+  },
+  "48": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 7759,
+      "sat": 254,
+      "effect": "none",
+      "xy": [
+        0.433,
+        0.4029
+      ],
+      "ct": 327,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:06:12"
+    },
+    "type": "Extended color light",
+    "name": "Temple",
+    "modelid": "LST002",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue lightstrip plus",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 40,
+        "maxlumen": 1600,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "huelightstrip",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:48:f3:46-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "59F2C3A3",
+    "productid": "Philips-LST002-1-LedStripsv3"
+  },
+  "49": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 6912,
+      "sat": 251,
+      "effect": "none",
+      "xy": [
+        0.5487,
+        0.4136
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:00:52"
+    },
+    "type": "Extended color light",
+    "name": "Hue outdoor pedestal 1",
+    "modelid": "LCF005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 640,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "functional",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:40:62:5e-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "949259E6",
+    "productid": "ENA-LCF005-1-CallaPedestalv1"
+  },
+  "50": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 6912,
+      "sat": 251,
+      "effect": "none",
+      "xy": [
+        0.5487,
+        0.4136
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:02:05"
+    },
+    "type": "Extended color light",
+    "name": "Hue outdoor spot 1",
+    "modelid": "LCS001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor spot",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 650,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "groundspot",
+      "function": "decorative",
+      "direction": "upwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:91:9d:bc-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "949259E6",
+    "productid": "ENA-LCS001-1-LilySpikev1"
+  },
+  "51": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 6912,
+      "sat": 251,
+      "effect": "none",
+      "xy": [
+        0.5487,
+        0.4136
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:01:57"
+    },
+    "type": "Extended color light",
+    "name": "Hue outdoor pedestal 2",
+    "modelid": "LCF005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 640,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "functional",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:40:56:52-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "949259E6",
+    "productid": "ENA-LCF005-1-CallaPedestalv1"
+  },
+  "52": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 6912,
+      "sat": 251,
+      "effect": "none",
+      "xy": [
+        0.5487,
+        0.4136
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:01:49"
+    },
+    "type": "Extended color light",
+    "name": "Hue outdoor pedestal 3",
+    "modelid": "LCF005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 640,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "functional",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:fc:19:18-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "949259E6",
+    "productid": "ENA-LCF005-1-CallaPedestalv1"
+  },
+  "53": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 6912,
+      "sat": 251,
+      "effect": "none",
+      "xy": [
+        0.5487,
+        0.4136
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:00:34"
+    },
+    "type": "Extended color light",
+    "name": "Hue outdoor pedestal 4",
+    "modelid": "LCF005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 640,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "functional",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:40:62:94-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "949259E6",
+    "productid": "ENA-LCF005-1-CallaPedestalv1"
+  },
+  "54": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 7170,
+      "sat": 225,
+      "effect": "none",
+      "xy": [
+        0.5266,
+        0.4133
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:00:44"
+    },
+    "type": "Extended color light",
+    "name": "Hue outdoor pedestal 5",
+    "modelid": "LCF005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 640,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "functional",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:fa:de:14-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "949259E6",
+    "productid": "ENA-LCF005-1-CallaPedestalv1"
+  },
+  "55": {
+    "state": {
+      "on": false,
+      "bri": 250,
+      "hue": 6912,
+      "sat": 251,
+      "effect": "none",
+      "xy": [
+        0.5487,
+        0.4136
+      ],
+      "ct": 500,
+      "alert": "none",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:01:09"
+    },
+    "type": "Extended color light",
+    "name": "Hue outdoor pedestal 6",
+    "modelid": "LCF005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 640,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "functional",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:fc:18:4b-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "949259E6",
+    "productid": "ENA-LCF005-1-CallaPedestalv1"
+  },
+  "56": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 8418,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.41
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:01:43"
+    },
+    "type": "Extended color light",
+    "name": "Kitchen bench 1",
+    "modelid": "LCT010",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:08:84:98:cc-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "292E579A",
+    "productid": "Philips-LCT010-1-A19ECLv4"
+  },
+  "57": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 8418,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.41
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:01:34"
+    },
+    "type": "Extended color light",
+    "name": "Kitchen bench 2",
+    "modelid": "LCT010",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:08:84:98:5c-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "292E579A",
+    "productid": "Philips-LCT010-1-A19ECLv4"
+  },
+  "58": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 8418,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.41
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-15T04:01:26"
+    },
+    "type": "Extended color light",
+    "name": "Kitchen bench 3",
+    "modelid": "LCT010",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:08:84:ab:ea-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "292E579A",
+    "productid": "Philips-LCT010-1-A19ECLv4"
+  },
+  "59": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 9969,
+      "sat": 213,
+      "effect": "none",
+      "xy": [
+        0.471,
+        0.4473
+      ],
+      "ct": 389,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-05-23T04:25:30"
+    },
+    "type": "Extended color light",
+    "name": "Back outdoor 3",
+    "modelid": "1743430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 404,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:f8:7e:d2-0b",
+    "swversion": "1.65.9_hB3217DF",
+    "swconfigid": "74B408F8",
+    "productid": "3241-3127-7871_HC04_PSU01"
+  },
+  "60": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 8136,
+      "sat": 151,
+      "effect": "none",
+      "xy": [
+        0.4668,
+        0.4101
+      ],
+      "ct": 379,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-04-28T08:08:21"
+    },
+    "type": "Extended color light",
+    "name": "Bar lights",
+    "modelid": "LST002",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue lightstrip plus",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 40,
+        "maxlumen": 1600,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "huelightstrip",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:05:a9:53-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "59F2C3A3",
+    "productid": "Philips-LST002-1-LedStripsv3"
+  },
+  "61": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 9969,
+      "sat": 213,
+      "effect": "none",
+      "xy": [
+        0.471,
+        0.4473
+      ],
+      "ct": 389,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-05-23T04:25:52"
+    },
+    "type": "Extended color light",
+    "name": "Back outdoor 2",
+    "modelid": "1743430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 404,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:fb:56:b6-0b",
+    "swversion": "1.65.9_hB3217DF",
+    "swconfigid": "74B408F8",
+    "productid": "3241-3127-7871_HC04_PSU01"
+  },
+  "62": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 9969,
+      "sat": 213,
+      "effect": "none",
+      "xy": [
+        0.471,
+        0.4473
+      ],
+      "ct": 389,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-05-23T04:25:46"
+    },
+    "type": "Extended color light",
+    "name": "Back outdoor 1",
+    "modelid": "1743430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 404,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:90:e0:c2-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "17CC6E66",
+    "productid": "3241-3127-7871_HC01_PSU01"
+  },
+  "63": {
+    "state": {
+      "on": false,
+      "bri": 51,
+      "hue": 9969,
+      "sat": 213,
+      "effect": "none",
+      "xy": [
+        0.471,
+        0.4473
+      ],
+      "ct": 389,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-06-11T05:00:22"
+    },
+    "type": "Extended color light",
+    "name": "Back outdoor 5",
+    "modelid": "1743430P7",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue outdoor pedestal",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 404,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.17,
+            0.7
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "bollard",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:90:8e:d1-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "17CC6E66",
+    "productid": "3241-3127-7871_HC01_PSU01"
+  }
+}

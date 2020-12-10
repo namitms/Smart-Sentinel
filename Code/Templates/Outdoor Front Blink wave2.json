@@ -1,5 +1,5 @@
 {
-  "ID": "Hue2",
+  "ID": "front",
   "Frequency": 1,
   "Type": 4,
   "Properties": {
@@ -20,6 +20,7 @@
                   "URL": "54",
                   "HUE_HUB": "GROUND",
                   "COLOR": "FF0000",
+                  "ALERT": "1",
                   "PAYLOAD": {
                     "bri": 150,
                     "sat": 150,
@@ -53,6 +54,7 @@
                 "Properties": {
                   "URL": "23",
                   "HUE_HUB": "GROUND",
+                  "ALERT": "1",
                   "COLOR": "FF0000",
                   "PAYLOAD": {
                     "bri": 150,
@@ -212,6 +214,7 @@
                 "Properties": {
                   "URL": "55",
                   "HUE_HUB": "GROUND",
+                  "ALERT": "1",
                   "COLOR": "FFAA00",
                   "PAYLOAD": {
                     "bri": 150,
@@ -297,6 +300,7 @@
                 "Properties": {
                   "URL": "52",
                   "HUE_HUB": "GROUND",
+                  "ALERT": "1",
                   "COLOR": "00FF00",
                   "PAYLOAD": {
                     "bri": 150,
@@ -314,6 +318,7 @@
                 "Properties": {
                   "URL": "46",
                   "HUE_HUB": "GROUND",
+                  "ALERT": "1",
                   "COLOR": "00FF00",
                   "PAYLOAD": {
                     "bri": 150,
@@ -405,6 +410,7 @@
                 "Properties": {
                   "URL": "23",
                   "HUE_HUB": "GROUND",
+                  "ALERT": "1",
                   "COLOR": "0000FF",
                   "PAYLOAD": {
                     "bri": 150,
@@ -508,6 +514,7 @@
                   "URL": "51",
                   "HUE_HUB": "GROUND",
                   "COLOR": "00FF00",
+                  "ALERT": "1",
                   "PAYLOAD": {
                     "bri": 150,
                     "sat": 150,
@@ -599,6 +606,7 @@
                   "URL": "47",
                   "HUE_HUB": "GROUND",
                   "COLOR": "0000FF",
+                  "ALERT": "1",
                   "PAYLOAD": {
                     "bri": 150,
                     "sat": 150,
@@ -615,6 +623,7 @@
                 "Properties": {
                   "URL": "49",
                   "HUE_HUB": "GROUND",
+                  "ALERT": "1",
                   "COLOR": "0000FF",
                   "PAYLOAD": {
                     "bri": 150,
@@ -701,6 +710,7 @@
                   "URL": "53",
                   "HUE_HUB": "GROUND",
                   "COLOR": "FF0000",
+                  "ALERT": "1",
                   "PAYLOAD": {
                     "bri": 150,
                     "sat": 150,

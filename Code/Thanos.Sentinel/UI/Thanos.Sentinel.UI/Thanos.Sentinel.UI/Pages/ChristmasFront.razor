@@ -6,7 +6,7 @@
 @inject NavigationManager NavManager
 @inject State state
 
-<h1>🎅 Christmas ☃️🦌</h1>
+<h1>🎅 Front Garden ☃️</h1>
 
 @if (blogs == null)
 {
@@ -23,7 +23,7 @@ else
     </thead>
     <tbody>
         <tr>
-            <td><button class="btn btn-primary" @onclick="() => Clear()">Delete All</button></td>
+            <td><button class="btn btn-primary" @onclick="() => Clear()">Stop Loop</button></td>
         </tr>
         @foreach (var blog in blogs)
             {
@@ -52,7 +52,7 @@ else
             NavManager.NavigateTo("/");
         }
 
-        blogs = await blogService.GetLoops();
+        blogs = await blogService.GetLoops("front");
     }
 
     private void Wave(string flow)
@@ -63,6 +63,6 @@ else
 
     private void Clear()
     {
-        blogService.Clear();
+        blogService.Clear("front");
     }
 }

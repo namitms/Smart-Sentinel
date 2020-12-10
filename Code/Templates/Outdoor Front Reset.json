@@ -1,5 +1,5 @@
 {
-  "ID": "Hue2",
+  "ID": "front",
   "Frequency": 1,
   "Type": 4,
   "Properties": {
@@ -15,13 +15,13 @@
             "assets": [
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "47",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,
@@ -32,13 +32,13 @@
               },
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "46",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,
@@ -49,13 +49,13 @@
               },
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "23",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,
@@ -66,13 +66,13 @@
               },
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "49",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,
@@ -83,13 +83,13 @@
               },
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "50",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,
@@ -100,13 +100,13 @@
               },
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "51",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,
@@ -117,13 +117,13 @@
               },
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "52",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,
@@ -134,13 +134,13 @@
               },
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "53",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,
@@ -151,13 +151,13 @@
               },
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "54",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,
@@ -168,13 +168,13 @@
               },
               {
                 "asset_Type": 0,
-                "ColorLoop": true,
+                "ColorLoop": false,
                 "Properties": {
                   "URL": "55",
                   "HUE_HUB": "GROUND",
-                  "COLOR": "FF0000",
+                  "COLOR": "FFAA00",
                   "PAYLOAD": {
-                    "bri": 150,
+                    "bri": 250,
                     "sat": 150,
                     "hue": 255,
                     "ct": 600,

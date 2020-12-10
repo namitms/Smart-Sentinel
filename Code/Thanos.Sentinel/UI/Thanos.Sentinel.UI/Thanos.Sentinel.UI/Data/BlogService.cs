@@ -26,7 +26,7 @@ namespace Thanos.Sentinel.UI.Data
         //    }).ToArray());
         //}
 
-        public async Task<List<string>> GetLoops()
+        public async Task<List<string>> GetLoops(string filter)
         {
             List<string> files = new List<string>();
             string blobConectionString = "DefaultEndpointsProtocol=https;AccountName=stx15chatops;AccountKey=m3W74xcgtxp7aNZqdN0WiyKYg5dPG0ScDbyY9FPLuF5CC+TXZlpYIXkFER3mC1rmbQpTFwioLkPWiCYj6wVEsw==;EndpointSuffix=core.windows.net";
@@ -35,7 +35,10 @@ namespace Thanos.Sentinel.UI.Data
 
             foreach (BlobItem blobItem in blobContainerClient.GetBlobs())
             {
-                files.Add(blobItem.Name);
+                if (blobItem.Name.ToLower().Contains(filter))
+                {
+                    files.Add(blobItem.Name);
+                }
             }
             return files;
         }
@@ -63,6 +66,14 @@ namespace Thanos.Sentinel.UI.Data
         {
             var client = new HttpClient();
             string url = "https://thanossentinel.azurewebsites.net/api/task?id=ALL";
+            var resultCode = client.DeleteAsync(url);
+            return;
+        }
+
+        public async Task Clear(string key)
+        {
+            var client = new HttpClient();
+            string url = "https://thanossentinel.azurewebsites.net/api/task?id="+ key;
             var resultCode = client.DeleteAsync(url);
             return;
         }
